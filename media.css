@@ -1,0 +1,643 @@
+/* MEDIA GENERALI */
+@media (max-width: 1200px) {
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .name-link-section {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* MEDIA GENERALI */
+@media (max-width: 900px) {
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+}
+
+/* MEDIA GENERALI */
+@media (max-width: 300px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* MEDIA PC - SCHERMI + GRANDI */
+@media (min-width: 1600px) {
+    .container-services {
+        grid-template-columns: repeat(auto-fill, minmax(25%, 1fr)) !important;
+    }
+
+    .container-about-us {
+        grid-template-columns: repeat(auto-fill, minmax(25%, 1fr)) !important;
+    }
+}
+
+@media (max-width: 1400px) {
+
+    /* CONTACT */
+    .container-reservation {
+        gap: 15px;
+    }
+
+    .container-reservation a {
+        width: auto;
+        min-width: 180px;
+    }
+}
+
+
+/* MEDIA PC - TABLET */
+@media (max-width: 1200px) {
+
+    /* --- HEADER --- */
+    .navbar {
+        padding: 10px 30px;
+    }
+
+    .navbar-left img {
+        height: 40px !important;
+        width: 100% !important;
+    }
+
+    .navbar-center,
+    .navbar-right {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: block;
+        right: 30px;
+    }
+
+    .nav-toggle i {
+        font-size: 2.5rem;
+    }
+
+    #check:checked~.menu {
+        right: 0;
+    }
+
+    .navbar.scrolled {
+        backdrop-filter: unset;
+        background-color: hsla(0, 0%, 12%, 0.5);
+        background-color: #1c1c1c !important;
+    }
+
+    .menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 60px;
+        z-index: 200;
+        backdrop-filter: blur(16px) !important;
+        background-color: #1c1c1cd5 !important;
+        transition: right 0.8s ease;
+        /* transition: all 1s ; */
+    }
+
+    .menu a {
+        text-transform: uppercase;
+        font-size: 1rem;
+        padding: 16px 10px;
+    }
+
+    /* HOME */
+    h1 {
+        font-size: 2.4rem;
+    }
+
+    .title {
+        top: 57%;
+    }
+
+    .buttons {
+        top: 85%;
+    }
+
+    .signature {
+        top: 94%;
+    }
+
+    /* PROFILE */
+    #profile {
+        padding: 80px 50px !important;
+    }
+
+    .profile-section {
+        gap: 30px;
+    }
+
+    .profile-section .container-img {
+        width: 45%;
+    }
+
+    .profile-section .profile-text {
+        width: 65%;
+    }
+
+    .profile-section .container-img img {
+        width: 100%;
+
+    }
+
+    .name {
+        margin: 5px 0 10px;
+    }
+
+    .description {
+        margin-top: 5px;
+    }
+
+    /* SERVICES */
+    #services {
+        padding: 80px 50px;
+    }
+
+    #p-services {
+        padding: 10px 0 30px 0 !important;
+    }
+
+    /* GALLERY */
+    .container-gallery {
+        grid-template-columns: repeat(2, calc((100% - 10px) / 2));
+        gap: 10px;
+    }
+
+    /* REVIEWS */
+    #reviews {
+        padding: 80px 30px;
+    }
+
+    #p-reviews {
+        padding: 10px 0 30px 0 !important;
+    }
+
+    .container-about-us {
+        gap: 30px;
+    }
+
+    /* BREAK */
+    #break {
+        padding: 40px 50px;
+    }
+
+    /* PRODUCTS */
+    #products {
+        padding: 80px 50px;
+    }
+
+    .container-products {
+        display: none;
+    }
+
+    .container-products-responsive {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .large {
+        width: 50%;
+    }
+
+    #product-img-responsive {
+        height: 350px;
+    }
+
+    /* CONTACT */
+    #contact {
+        padding: 80px 50px;
+        height: 100%;
+    }
+
+    .contact-text {
+        padding: 0 30px 0 0
+    }
+
+    .container-reservation a {
+        width: auto;
+        min-width: auto;
+    }
+
+    .container-contact-reservation img {
+        width: 90% !important;
+    }
+
+    /* MAPS */
+    #maps {
+        padding: 80px 50px;
+    }
+
+    .container-img-maps img {
+        width: 450px;
+    }
+
+    /* FOOTER */
+    #footer {
+        padding: 40px 50px;
+    }
+}
+
+/* MEDIA TABLET - TELEFONO */
+@media (max-width: 900px) {
+
+    /* HOME */
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .intro {
+        top: 48%;
+    }
+
+    .title {
+        top: 54%;
+    }
+
+    .buttons {
+        top: 87%;
+    }
+
+    .signature {
+        top: 95%;
+    }
+
+    /* PROFILE */
+    #profile {
+        padding: 80px 30px !important;
+    }
+
+    .profile-section {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .profile-section .container-img {
+        width: 100%;
+    }
+
+    .profile-presentation {
+        margin: 10px;
+    }
+
+    .profile-section .profile-text {
+        width: 100%;
+    }
+
+    .container-img img {
+        width: 100% !important;
+    }
+
+    /* SERVICES */
+    #services {
+        padding: 80px 30px;
+    }
+
+    /* REVIEWS */
+    #reviews {
+        padding: 80px 30px;
+    }
+
+    .container-about-us {
+        row-gap: 50px;
+    }
+
+    .container-google-reviews {
+        flex-direction: column;
+    }
+
+    .container-google,
+    .container-reviews {
+        width: 100%;
+    }
+
+    .container-reviews {
+        margin-top: 30px;
+    }
+
+    /* BREAK */
+    #break {
+        padding: 40px 30px;
+    }
+
+    /* PRODUCTS */
+    #products {
+        padding: 80px 30px;
+    }
+
+    .description-products {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .large,
+    .medium {
+        width: 100%;
+    }
+
+    #product-img-responsive {
+        height: 350px;
+    }
+
+    #product-catwalk {
+        margin-top: 40px;
+    }
+
+    /* CONTACT */
+    #contact {
+        padding: 80px 30px;
+        height: 100%;
+    }
+
+    .container-contact-reservation {
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .container-contact-reservation img {
+        width: 45% !important;
+    }
+
+    .contact-text {
+        width: 100%;
+        padding: 10px 30px;
+    }
+
+    .container-reservation {
+        column-gap: 20px;
+        flex-direction: column;
+    }
+
+    .container-reservation a {
+        width: 100%;
+    }
+
+    /* MAPS */
+    #maps {
+        padding: 80px 30px;
+    }
+
+    .container-maps {
+        flex-direction: column;
+    }
+
+    .container-img-maps {
+        width: 100%;
+    }
+
+    .container-img-maps img {
+        width: 100%;
+        height: 400px !important;
+    }
+
+    /* FOOTER */
+    #footer {
+        padding: 40px 30px;
+    }
+
+    .container-footer-medium {
+        flex-direction: column;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    .container-footer-medium .container-contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #footer .container-link,
+    #footer .container-hours,
+    #footer .container-service,
+    #footer .container-contact {
+        border-bottom: 1px solid #ffffff22;
+        padding: 15px 0;
+    }
+}
+
+/* MEDIA TELEFONO */
+@media (max-width: 500px) {
+
+    /* --- HEADER --- */
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .nav-toggle {
+        right: 20px;
+    }
+
+    .brand-name {
+        display: none;
+        font-size: 1.03rem;
+    }
+
+    .brand-job {
+        display: none;
+        font-size: 0.85rem;
+        letter-spacing: 0;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    /* HOME */
+    h1 {
+        font-size: 2rem;
+    }
+
+    .intro {
+        top: 55.5%;
+    }
+
+    .title {
+        top: 61%;
+    }
+
+    .comment {
+        top: 74%;
+    }
+
+    .buttons {
+        top: 87.5%;
+    }
+
+    .signature {
+        top: 95%;
+    }
+
+    .intro,
+    .title,
+    .comment,
+    .buttons,
+    .signature {
+        width: 95%;
+    }
+
+    /* SERVICES */
+    #services {
+        padding: 80px 20px;
+    }
+
+    .container-services {
+        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr))
+    }
+
+    /* GALLERY */
+    .container-gallery {
+        grid-template-columns: repeat(1, calc((100%) / 1));
+        gap: 8px !important;
+    }
+
+    .gallery {
+        gap: 8px !important;
+    }
+
+    #gallery-reverse {
+        flex-direction: column;
+    }
+
+    .gallery-down {
+        height: 65vh;
+    }
+
+    .gallery-up {
+        height: 35vh;
+    }
+
+    /* REVIEWS */
+    #reviews {
+        padding: 80px 20px;
+    }
+
+    .container-about-us {
+        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr))
+    }
+
+    .container-reviews {
+        padding: 15px;
+    }
+
+    /* solo per oggi */
+    .review {
+        padding: 0 15px;
+    }
+
+    /* solo oggi */
+    /* #reviews .arrow {
+        display: none;
+    } */
+
+    /* BREAK */
+    #break {
+        padding: 40px 20px;
+    }
+
+    /* PRODUCTS */
+    #products {
+        padding: 80px 30px;
+    }
+
+    #products .btn {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+        margin-top: 5px;
+    }
+
+    /* CONTACT */
+    #contact {
+        padding: 80px 20px;
+        height: 100%;
+    }
+
+    .container-contact-reservation img {
+        width: 88% !important;
+    }
+
+    /* MAPS */
+    #maps {
+        padding: 80px 20px;
+    }
+
+    /* FOOTER */
+    #footer {
+        padding: 40px 20px;
+    }
+}
+
+
+
+
+/* MEDIA TELEFONO O + PICCOLI*/
+@media (max-width: 381px) {
+
+    /* HOME */
+    h1 {
+        font-size: 1.9rem;
+    }
+
+    .intro,
+    .title,
+    .comment,
+    .buttons,
+    .signature {
+        width: 95%;
+    }
+
+    .intro {
+        top: 38.5%;
+    }
+
+    .comment {
+        top: 60%;
+    }
+
+    .title {
+        top: 44%;
+    }
+
+    .buttons {
+        top: 82.5%;
+    }
+
+    #home .btn-left {
+        margin-bottom: 20px;
+    }
+
+    .signature {
+        top: 95%;
+    }
+
+}
+
+@media (max-width: 337px) {
+
+    /* HOME */
+    .intro {
+        top: 33.5%;
+    }
+
+    .title {
+        top: 42%;
+    }
+}
