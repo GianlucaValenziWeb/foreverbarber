@@ -121,19 +121,7 @@
 
     /* HOME */
     h1 {
-        font-size: 2.4rem;
-    }
-
-    .title {
-        top: 57%;
-    }
-
-    .buttons {
-        top: 85%;
-    }
-
-    .signature {
-        top: 94%;
+        font-size: 2.5rem;
     }
 
     /* PROFILE */
@@ -261,23 +249,11 @@
 
     /* HOME */
     h1 {
-        font-size: 2.2rem;
+        font-size: 2.3rem;
     }
 
-    .intro {
-        top: 48%;
-    }
-
-    .title {
-        top: 54%;
-    }
-
-    .buttons {
-        top: 87%;
-    }
-
-    .signature {
-        top: 95%;
+    #home .content {
+        max-width: 85%;
     }
 
     /* PROFILE */
@@ -463,35 +439,13 @@
 
     /* HOME */
     h1 {
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
 
-    .intro {
-        top: 55.5%;
-    }
-
-    .title {
-        top: 61%;
-    }
-
-    .comment {
-        top: 74%;
-    }
-
-    .buttons {
-        top: 87.5%;
-    }
-
-    .signature {
-        top: 95%;
-    }
-
-    .intro,
-    .title,
-    .comment,
-    .buttons,
-    .signature {
-        width: 95%;
+    #home .content {
+        max-width: 100%;
+        padding: 0 20px;
+        gap: 0.9rem;
     }
 
     /* SERVICES */
@@ -589,55 +543,29 @@
 
 
 /* MEDIA TELEFONO O + PICCOLI*/
-@media (max-width: 381px) {
+@media (max-width: 390px) {
 
     /* HOME */
     h1 {
-        font-size: 1.9rem;
+        font-size: 2rem;
     }
 
-    .intro,
-    .title,
-    .comment,
-    .buttons,
-    .signature {
-        width: 95%;
-    }
-
-    .intro {
-        top: 38.5%;
-    }
-
-    .comment {
-        top: 60%;
-    }
-
-    .title {
-        top: 44%;
-    }
-
-    .buttons {
-        top: 82.5%;
+    #home .btn {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+        margin-top: 5px;
     }
 
     #home .btn-left {
-        margin-bottom: 20px;
-    }
-
-    .signature {
-        top: 95%;
+        padding: 10px 12px !important;
     }
 
 }
 
-@media (max-width: 337px) {
+@media (max-width: 350px) {
 
     /* HOME */
-    .intro {
-        top: 33.5%;
-    }
-
-    .title {
-        top: 42%;
+    #home .btn {
+        width: 100%;
     }
 }

@@ -10,10 +10,10 @@
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
 
     <link rel="preload" as="image" href="" type="image/webp">
-    <title>Forever Barber</title>
+    <title>Forever Barber | Barberia via dei consoli, Tuscolana</title>
 
     <meta name="keywords"
-        content="Fisioterapista Roma, osteopata Roma, fisioterapista vicino a me, fisioterapista atleti" />
+        content="barbiere vicino a me, barbiere Roma, barbiere tuscolana, barbiere piazza dei consoli, barber shop a roma" />
     <meta name="author" content="Dott. Matteo Fiorentini" />
 
     <!-- Open Graph -->
@@ -70,9 +70,9 @@
 
         <div class="navbar-left">
             <a href="index.html">
-                <img src="images/forever barber.png" alt="" loading="eager" decoding="sync" width="100" height="100%">
+                <img src="images/forever barber.png" alt="" loading="eager" decoding="sync" width="100" height="100%"
+                    aria-label="logo-forever-barber">
             </a>
-
             <!-- <a href="index.html" class="container-brand" aria-label="">
                 <span class="brand-name">Forever Barber</span>
                 <span class="brand-job">Barberia da Ciro</span>
@@ -80,18 +80,17 @@
         </div>
 
         <nav class="navbar-center">
-            <a href="#home" class="nav-link">Home</a>
-            <a href="#profile" class="nav-link">Chi siamo</a>
-            <a href="#services" class="nav-link">Servizi</a>
-            <a href="#gallery" class="nav-link">Gallery</a>
-            <a href="#reviews" class="nav-link">Recensioni</a>
-            <a href="#products" class="nav-link">Prodotti</a>
-            <a href="#maps" class="nav-link">Dove siamo</a>
+            <a href="#home" class="nav-link" aria-label="link-navbar-home">Home</a>
+            <a href="#profile" class="nav-link" aria-label="link-navbar-chi-siamo">Chi siamo</a>
+            <a href="#services" class="nav-link" aria-label="link-navbar-servizi">Servizi</a>
+            <a href="#gallery" class="nav-link" aria-label="link-navbar-gallery">Gallery</a>
+            <a href="#reviews" class="nav-link" aria-label="link-navbar-recensioni">Recensioni</a>
+            <a href="#products" class="nav-link" aria-label="link-navbar-prodotti">Prodotti</a>
+            <a href="#maps" class="nav-link" aria-label="link-navbar-dove-siamo">Dove siamo</a>
         </nav>
 
-
         <div class="navbar-right">
-            <a href="#contact" class="nav-link contact">contatti</a>
+            <a href="#contact" class="nav-link contact" aria-label="link-navbar-contatti">contatti</a>
         </div>
 
         <label for="check" class="nav-toggle" id="open-menu">
@@ -103,42 +102,42 @@
                 <i class='bx bx-x'></i>
             </label>
             <div class="menu-links">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#profile" class="nav-link">Chi siamo</a>
-                <a href="#services" class="nav-link">Servizi</a>
-                <a href="#gallery" class="nav-link">Gallery</a>
-                <a href="#reviews" class="nav-link">Recensioni</a>
-                <a href="#products" class="nav-link">Prodotti</a>
-                <a href="#maps" class="nav-link">Dove siamo</a>
-                <a href="#contact" class="nav-link" id="contact-menu">contatti</a>
+                <a href="#home" class="nav-link" aria-label="link-navbar-home">Home</a>
+                <a href="#profile" class="nav-link" aria-label="link-navbar-chi-siamo">Chi siamo</a>
+                <a href="#services" class="nav-link" aria-label="link-navbar-servizi">Servizi</a>
+                <a href="#gallery" class="nav-link" aria-label="link-navbar-gallery">Gallery</a>
+                <a href="#reviews" class="nav-link" aria-label="link-navbar-recensioni">Recensioni</a>
+                <a href="#products" class="nav-link" aria-label="link-navbar-prodotti">Prodotti</a>
+                <a href="#maps" class="nav-link" aria-label="link-navbar-dove-siamo">Dove siamo</a>
+                <a href="#contact" class="nav-link" id="contact-menu" aria-label="link-navbar-contatti">contatti</a>
             </div>
         </div>
     </header>
 
-
     <section id="home">
-
         <picture>
             <!-- <source>  --> <!-- qui andranno le altre img ottimizzate -->
-            <img src="images/handsome-man-barbershop-shaving-beard.jpg" width="100%" height="100%"
-                style="object-fit: cover;" alt="" loading="eager" decoding="sync" srcset="">
+            <img src="images/handsome-man-barbershop-shaving-beard.jpg" alt="" loading="eager" decoding="sync" />
         </picture>
         <div class="overlay"></div>
 
-        <span class="intro">Dove il tuo look prende forma: </span>
-        <h1 class="title">FOREVER BARBER </h1>
-        <p class="comment">Ti diamo il benvenuto in un posto pensato per farti sentire a tuo agio, fin dal primo taglio.
-            Passione, professionalità e attenzione ai dettagli sono ciò che ci distingue ogni giorno.
-            Dai un’occhiata al nostro mondo: scopri i servizi, i prodotti e cosa dicono di noi.
-        </p>
-        <span class="signature">da Ciro</span>
+        <div class="content">
+            <span class="intro">Dove il tuo look prende forma:</span>
+            <h1 class="title">FOREVER BARBER</h1>
+            <p class="comment">
+                Ti diamo il benvenuto in un posto pensato per farti sentire a tuo agio, fin dal primo taglio.
+                Passione, professionalità e attenzione ai dettagli sono ciò che ci distingue ogni giorno.
+                Dai un’occhiata al nostro mondo: scopri i servizi, i prodotti e cosa dicono di noi.
+            </p>
 
-        <div class="buttons">
-            <a href="#profile" class="btn btn-left">scopri di piu</a>
-            <a href="#contact" class="btn btn-right">prenota ora</a>
+            <div class="buttons">
+                <a href="#profile" class="btn btn-left" aria-label="pulsante-per-scrollare">scopri di piu</a>
+                <a href="#contact" class="btn btn-right" aria-label="pulsante-per-prenotare">prenota ora</a>
+            </div>
+
+            <span class="signature">da Ciro</span>
         </div>
     </section>
-
 
     <!-- chi sono -->
     <section id="profile" style="overflow: hidden;">
@@ -150,16 +149,16 @@
                         loading="lazy" decoding="async">
                 </div>
                 <div class="profile-presentation">
-                    <h4>Ciro</h4>
+                    <span>Ciro</span>
                     <div>Barbiere - Titolare</div>
                     <div class="container-social">
-                        <a href="">
+                        <a href="" aria-label="link-facebook">
                             <i class='bx bxl-facebook'></i>
                         </a>
-                        <a href="">
+                        <a href="" aria-label="link-instagram">
                             <i class='bx bxl-instagram'></i>
                         </a>
-                        <a href="">
+                        <a href="" aria-label="link-linkedin">
                             <i class='bx bxl-linkedin'></i>
                         </a>
                     </div>
@@ -209,7 +208,7 @@
             Che tu sappia già cosa vuoi o abbia solo un’idea da definire insieme, siamo qui per aiutarti.</p>
         <div class="container-services">
             <div class="service">
-                <a href="#contact">
+                <a href="#contact" aria-label="link-contatti">
                     <div class="service-img">
                         <img src="images/taglio-uomo.jpg" alt="" loading="lazy" decoding="async">
                     </div>
@@ -217,12 +216,12 @@
                         <h3>Taglio Uomo</h3>
                         <span>10€ - 30 min.</span>
                         <p>Taglio preciso e personalizzato, studiato in base alla forma del viso e al tuo stile.</p>
-                        <a href="#contact" class="reservation">prenota ora</a>
+
                     </div>
                 </a>
             </div>
             <div class="service">
-                <a href="#contact">
+                <a href="#contact" aria-label="link-contatti">
                     <div class="service-img">
                         <img src="images/barba.jpg" alt="" loading="lazy" decoding="async">
                     </div>
@@ -230,26 +229,25 @@
                         <h3>Modellatura Barba</h3>
                         <span>5€ - 20 min.</span>
                         <p>Ridefinizione della barba con forbice o macchinetta, per un look pulito e curato.</p>
-                        <a href="#contact" class="reservation">prenota ora</a>
+
                     </div>
                 </a>
             </div>
             <div class="service">
-                <a href="#contact">
+                <a href="#contact" aria-label="link-contatti">
                     <div class="service-img">
                         <img src="images/taglio - shampoo-barba.jpg" alt="" loading="lazy" decoding="async">
-                        <div class="badge">miglior offerta</div>
                     </div>
                     <div class="service-text">
                         <h3>Taglio e Shampoo + Barba</h3>
                         <span>15€ - 50 min.</span>
                         <p>Taglio sartoriale dei capelli, shampoo rigenerante e modellatura barba precisa.</p>
-                        <a href="#contact" class="reservation">prenota ora</a>
+
                     </div>
                 </a>
             </div>
             <div class="service">
-                <a href="#contact">
+                <a href="#contact" aria-label="link-contatti">
                     <div class="service-img">
                         <img src="images/sopracciglia.jpg" alt="" loading="lazy" decoding="async">
                     </div>
@@ -257,13 +255,13 @@
                         <h3>Regolazione Sopracciglia</h3>
                         <span>5€ - 10 min.</span>
                         <p>Pulizia e definizione naturale delle sopracciglia per uno sguardo ordinato e deciso.</p>
-                        <a href="#contact" class="reservation">prenota ora</a>
+
                     </div>
                 </a>
 
             </div>
             <div class="service">
-                <a href="#contact">
+                <a href="#contact" aria-label="link-contatti">
                     <div class="service-img">
                         <img src="images/tinta.jpg" alt="" loading="lazy" decoding="async">
                     </div>
@@ -271,12 +269,12 @@
                         <h3>Colorazione Capelli</h3>
                         <span>10€ - 45 min.</span>
                         <p>Copertura dei capelli bianchi o cambio look, con colorazioni naturali e su misura.</p>
-                        <a href="#contact" class="reservation">prenota ora</a>
+
                     </div>
                 </a>
             </div>
             <div class="service">
-                <a href="#contact">
+                <a href="#contact" aria-label="link-contatti">
                     <div class="service-img">
                         <img src="images/permanente.jpg" alt="" loading="lazy" decoding="async">
                     </div>
@@ -284,14 +282,13 @@
                         <h3>Colpi di Sole, Permanente Ricciante</h3>
                         <span>10€ - 30 min.</span>
                         <p>Tecniche di taglio precise e personalizzate che valorizzano la forma del viso.</p>
-                        <a href="#contact" class="reservation">prenota ora</a>
+
                     </div>
                 </a>
             </div>
 
         </div>
 
-        <a href="#reviews" class="btn btn-left" style="margin-top: 60px;">scopri di piu</a>
     </section>
 
     <section id="gallery">
@@ -370,7 +367,7 @@
         </div>
 
         <div class="container-reviews-down">
-            <h2 style="margin-top: 120px;">Perche Scegliere Noi</h2>
+            <h2 style="margin-top: 120px;">Perche Scegliere <span>Noi</span> ?</h2>
             <p style="padding: 20px 0 30px 0;" id="p-reviews">Ci mettiamo <span class="highlight">impegno, passione e
                     attenzione in tutto
                     quello che
@@ -381,10 +378,10 @@
             <div class="container-about-us">
                 <div class="about">
                     <div class="about-img">
-                        <img src="images/certificate.png" alt="" loading="lazy" decoding="async">
+                        <img src="images/diploma.png" alt="" loading="lazy" decoding="async">
                     </div>
                     <div class="about-text">
-                        <h3>Corsi di Aggiornamento</h3>
+                        <h3>Aggiornamento Continuo</h3>
                         <p>Seguiamo regolarmente corsi per restare al passo con le ultime tecniche e tendenze del
                             settore.
                         </p>
@@ -392,7 +389,7 @@
                 </div>
                 <div class="about">
                     <div class="about-img">
-                        <img src="images/days.png" alt="" loading="lazy" decoding="async">
+                        <img src="images/barber-shop.png" alt="" loading="lazy" decoding="async">
                     </div>
                     <div class="about-text">
                         <h3>Accoglienza e Professionalità</h3>
@@ -404,7 +401,7 @@
                 </div>
                 <div class="about">
                     <div class="about-img">
-                        <img src="images/payment.png" alt="" loading="lazy" decoding="async">
+                        <img src="images/deduction.png" alt="" loading="lazy" decoding="async">
                     </div>
                     <div class="about-text">
                         <h3>Rapporto Qualità Prezzo</h3>
@@ -416,8 +413,6 @@
                 </div>
             </div>
         </div>
-
-
     </section>
 
     <section id="break">
@@ -440,7 +435,8 @@
                         ogni
                         giorno,
                         con trasparenza e attenzione ai dettagli.</p>
-                    <a href="#contact" class="btn btn-right">prenota un appuntamento</a>
+                    <a href="#contact" class="btn btn-right" aria-label="pulsante-per-prenotare">prenota un
+                        appuntamento</a>
                 </div>
                 <div class="product medium scroll-top">
                     <div class="product-img">
@@ -509,7 +505,8 @@
                         ogni
                         giorno,
                         con trasparenza e attenzione ai dettagli.</p>
-                    <a href="#contact" class="btn btn-right">prenota un appuntamento</a>
+                    <a href="#contact" class="btn btn-right" aria-label="pulsante-per-prenotare">prenota un
+                        appuntamento</a>
                 </div>
 
                 <div class="product large product-responsive" id="product-img-responsive">
@@ -570,8 +567,8 @@
 
     <section id="contact">
         <div class="container-contact-reservation">
-            <img src="images/foto-lui-contatti.png" alt="" width="60%" height="100%" style="object-fit: cover;"
-                class="scroll-scale">
+            <img src="images/foto-lui-contatti.png" alt="" width="60%" height="100%" loading="lazy" decoding="async"
+                style="object-fit: cover;" class="scroll-scale">
             <div class="contact-text scroll-scale">
                 <span class="name-link-section">— Contatti —</span>
                 <h2 style="padding: 0px 0 10px;">Prenota un Appuntamento ora!</h2>
@@ -580,17 +577,17 @@
                     Siamo sempre disponibili per rispondere a ogni tua domanda e fissare il tuo
                     appuntamento. Non vediamo l'ora di accoglierti!</p>
                 <div class="container-reservation">
-                    <a href="tel:+3314477778">
+                    <a href="tel:+3314477778" aria-label="pulsante-per-chiamare">
                         <i class='bx bxs-phone-call'></i>
                         <span>chiama ora</span>
                         <div>331 447 777 8</div>
                     </a>
-                    <a href="mailto: cirobarber8@gmail.com">
+                    <a href="mailto: cirobarber8@gmail.com" aria-label="pulsante-per-inviare-email">
                         <i class='bx bxs-envelope'></i>
                         <span>invia email</span>
                         <div>cirobarber8@gmail.com</div>
                     </a>
-                    <a href="https://wa.me/+3314477778" target="_blank">
+                    <a href="https://wa.me/+3314477778" target="_blank" aria-label="pulsante-per-inviare-whatsapp">
                         <i class='bx bxl-whatsapp'></i>
                         <span>Scrivimi ora</span>
                         <div>331 447 777 8</div>
@@ -610,7 +607,7 @@
                 <span class="name-link-section">— Dove siamo —</span>
 
                 <h2 class="name">Piazza dei consoli, 74</h2>
-                <p class="description">
+                <p class="description" style="margin-bottom: 25px;">
                     La nostra barberia si trova in una zona comoda e facile da raggiungere. Siamo a pochi passi da <span
                         class="highlight">via Tuscolana</span> (circa 200 metri) e a meno di 10 minuti a piedi dalla
                     <span class="highlight">Basilica di Don Bosco</span>.
@@ -623,7 +620,8 @@
                     perdere
                     tempo in giri complicati, siamo esattamente dove ti serve.
                 </p>
-                <a href="#google-maps" class="btn btn-left" style="margin-top: 25px;">dove siamo</a>
+                <a href="#google-maps" class="btn btn-left" aria-label="link-google-maps-mappa-barberia">dove siamo</a>
+
             </div>
         </div>
 
@@ -633,7 +631,7 @@
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.428649923349!2d12.553684975559246!3d41.86212316641507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6275a2dc9dd7%3A0x1dfbaaa30a25fb66!2sPiazza%20dei%20Consoli%2C%2074%2C%2000175%20Roma%20RM!5e0!3m2!1sit!2sit!4v1745917589555!5m2!1sit!2sit"
             width="100%" height="700px" style="border:0; overflow: hidden;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
+            referrerpolicy="no-referrer-when-downgrade" title="mappa-barberia-piazza-dei-consoli">
         </iframe>
     </section>
 
@@ -642,8 +640,8 @@
             <div class="container-logo-social">
                 <div class="navbar-left">
                     <a href="index.html">
-                        <img src="images/forever barber.png" alt="" loading="eager" decoding="sync" width="100"
-                            height="100%">
+                        <img src="images/forever barber.png" alt="" loading="lazy" decoding="async" width="100"
+                            height="100%" aria-label="logo-forever-barber">
                     </a>
                     <!-- <a href="index.html" class="container-brand" aria-label="">
                         <span class="brand-name">Forever Barber</span>
@@ -653,13 +651,13 @@
             </div>
 
             <div class="container-social">
-                <a href="">
+                <a href="" target="_blank" aria-label="link-facebook">
                     <i class='bx bxl-facebook'></i>
                 </a>
-                <a href="">
+                <a href="" target="_blank" aria-label="link-instagram">
                     <i class='bx bxl-instagram'></i>
                 </a>
-                <a href="">
+                <a href="" target="_blank" aria-label="link-linkedin">
                     <i class='bx bxl-linkedin'></i>
                 </a>
             </div>
@@ -668,13 +666,13 @@
         <div class="container-footer-medium">
             <div class="container-link">
                 <h3>link</h3>
-                <a href="#home">Home</a>
-                <a href="#profile">Chi siamo</a>
-                <a href="#services">Servizi</a>
-                <a href="#gallery">Gallery</a>
-                <a href="#products">Prodotti</a>
-                <a href="#reviews">Recensioni</a>
-                <a href="#maps">Dove siamo</a>
+                <a href="#home" aria-label="link-navbar-home">Home</a>
+                <a href="#profile" aria-label="link-navbar-chi-siamo">Chi siamo</a>
+                <a href="#services" aria-label="link-navbar-servizi">Servizi</a>
+                <a href="#gallery" aria-label="link-navbar-gallery">Gallery</a>
+                <a href="#products" aria-label="link-navbar-prodotti">Prodotti</a>
+                <a href="#reviews" aria-label="link-navbar-recensioni">Recensioni</a>
+                <a href="#maps" aria-label="link-navbar-dove-siamo">Dove siamo</a>
             </div>
 
             <div class="container-hours">
@@ -691,41 +689,45 @@
 
             <div class="container-service">
                 <h3>servizi</h3>
-                <a href="#services">Taglio Uomo</a>
-                <a href="#services">Modellatura Barba</a>
-                <a href="#services">Taglio e Shampoo + Barba</a>
-                <a href="#services">Regolazione Sopracciglia</a>
-                <a href="#services">Colorazione Capelli</a>
-                <a href="#services">Colpi di Sole</a>
-                <a href="#services">Permanente Ricciante</a>
+                <a href="#services" aria-label="link-servizi">Taglio Uomo</a>
+                <a href="#services" aria-label="link-servizi">Modellatura Barba</a>
+                <a href="#services" aria-label="link-servizi">Taglio e Shampoo + Barba</a>
+                <a href="#services" aria-label="link-servizi">Regolazione Sopracciglia</a>
+                <a href="#services" aria-label="link-servizi">Colorazione Capelli</a>
+                <a href="#services" aria-label="link-servizi">Colpi di Sole</a>
+                <a href="#services" aria-label="link-servizi">Permanente Ricciante</a>
 
             </div>
 
             <div class="container-contact">
                 <h3>contatti</h3>
                 <div class="contact-link">
-                    <i class='bx bxs-envelope'></i><a href="mailto: cirobarber8@gmail.com">cirobarber8@gmail.com</a>
+                    <i class='bx bxs-envelope'></i><a href="mailto: cirobarber8@gmail.com"
+                        aria-label="link-email">cirobarber8@gmail.com</a>
                 </div>
                 <div class="contact-link">
-                    <i class='bx bxs-location-plus'></i><a href="">piazza dei consoli, 74</a>
+                    <i class='bx bxs-location-plus'></i><a href="#contact" aria-label="link-mappa">piazza dei consoli,
+                        74</a>
                 </div>
                 <div class="contact-link">
-                    <i class='bx bxs-id-card'></i><a href="">P. IVA 17853541005</a>
+                    <i class='bx bxs-id-card'></i><a href="#contact" aria-label="link-p.iva">P. IVA 17853541005</a>
                 </div>
                 <div class="contact-link">
-                    <i class='bx bxs-phone'></i><a href="tel: +39 3314477778">331 447 777 8</a>
+                    <i class='bx bxs-phone'></i><a href="tel: +39 3314477778" aria-label="link-numero-di-telefono">331
+                        447 777 8</a>
                 </div>
             </div>
         </div>
         <div class="container-footer-down">
             <div>2025 &copy; Forever Barber. Tutti i diritti riservati.</div>
-            <div>Realizzato da <a href="https://www.gianlucavalenzi.com/" target="_blank">Gianluca Valenzi</a></div>
-            <a href="privacy.html">Privacy policy</a>
-            <a href="cookie.html">Cookie policy</a>
+            <div>Realizzato da <a href="https://www.gianlucavalenzi.com/" target="_blank"
+                    aria-label="link-gianluca-valenzi">Gianluca Valenzi</a></div>
+            <a href="privacy.html" aria-label="link-privacy-policy">Privacy policy</a>
+            <a href="cookie.html" aria-label="link-cookie-policy">Cookie policy</a>
         </div>
     </section>
 
-    <a href="#" class="arrow-up">
+    <a href="#" class="arrow-up" aria-label="torna-su">
         <i class='bx bx-chevron-up'></i>
     </a>
 </body>
@@ -879,14 +881,6 @@
             arrowUp.style.display = 'none';
         }
     });
-
-
-
-
-
-
-
-
 
     //  ANIMATION 
     document.addEventListener('DOMContentLoaded', function () {
