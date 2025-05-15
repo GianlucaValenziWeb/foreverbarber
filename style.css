@@ -122,7 +122,7 @@ p {
 }
 
 .highlight {
-    font-weight: 700;
+    font-weight: 600;
     font-size: inherit;
     color: inherit;
 }
@@ -155,7 +155,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 120px;
+    padding: 2px 120px;
     background: transparent;
     transition: background-color 0.3s ease-in-out, ;
 }
@@ -169,37 +169,6 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-/* 
-.navbar-left img {
-    background-color: #fff;
-    border-radius: 50%;
-    padding: 4px;
-    object-fit: cover;
-    margin-top: 5px;
-} */
-
-.container-brand {
-    display: flex;
-    flex-direction: column !important;
-}
-
-.brand-name {
-    font-size: 1.04rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: var(--navcolor);
-}
-
-.brand-job {
-    margin-top: -4.5px;
-    font-weight: bold;
-    word-spacing: 10px;
-    font-family: 'Satisfy', cursive;
-    font-size: 1rem;
-    letter-spacing: 1.5px;
-    color: var(--color1);
 }
 
 .navbar-center {
@@ -216,7 +185,7 @@ header {
 }
 
 .navbar-right .contact {
-    padding: 8px 16px;
+    padding: 12px 16px;
     font-weight: bold;
     border: none;
     background-color: transparent;
@@ -815,6 +784,11 @@ picture img {
     filter: brightness(1.2);
 }
 
+.product-img {
+    display: flex;
+    justify-content: center;
+}
+
 .text {
     background-color: transparent;
     display: flex;
@@ -832,7 +806,7 @@ picture img {
     color: var(--color1);
     color: #7c5e00;
     font-size: 0.9rem;
-    font-weight: 500;    
+    font-weight: 500;
 }
 
 .product-text p {
@@ -856,7 +830,7 @@ picture img {
 }
 
 .container-contact-reservation {
-    background: url(images/fondo-strutturato-della-pavimentazione-di-legno-marrone.jpg);
+    background: url(images/sfondo-forever-barber.webp);
     background-size: cover;
     height: 60vh;
     width: 100%;
@@ -1071,9 +1045,7 @@ picture img {
 }
 
 .container-reviews-down,
-.product-responsive,
-.gallery-up,
-.gallery-down {
+.product-responsive {
     transform: translateY(50px) !important;
     transition: opacity 1.5s ease, transform 1.5s ease, box-shadow .3s ease !important;
     opacity: 0;
@@ -1084,3 +1056,4 @@ picture img {
     opacity: 1;
     transform: translateY(0) !important;
 }
+
